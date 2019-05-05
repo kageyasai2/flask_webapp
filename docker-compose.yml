@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    tty: true
+    ports:
+      - "12345:8080"
+    volumes:
+      - ./flaskvue:/flaskvue
+    environment:
+      TZ: Asia/Tokyo

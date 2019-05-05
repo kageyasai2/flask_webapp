@@ -1,0 +1,17 @@
+{
+    "Pichu":{
+        "name":"Pichu",
+        "type": "Electric" ,
+        "information": 399
+    },
+    "Pikachu":{
+        "name": "Pikachu",
+        "type": "Electric" ,
+        "information": 650
+    },
+    "Raichu":{
+        "name": "Raichu",
+        "type": "Electric" ,
+        "information": 650
+    }
+}
