@@ -45,7 +45,6 @@ def predict():
     result = np.argmax(tmp, axis=1)
     print(result)
     txt = check(result)
-    view = plt.imread(pic)
     return txt
 
 def main():
